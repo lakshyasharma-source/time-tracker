@@ -8,8 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import training.taylor.timetracker.core.dao.TimeEntry;
-import time;//checking poll scm
-import *;
+
 /**
  * Created by Jason on 6/19/2015.
  */
@@ -20,7 +19,7 @@ public class TrackerTest {
     private Tracker tracker;
 
     @Test
-//    public void testMe() {
+    public void testMe() {
         assertNotNull(tracker);
     }
 
